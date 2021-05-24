@@ -11,11 +11,13 @@ namespace number22
             Console.Write("input number: ");
             int input = Convert.ToInt32(Console.ReadLine());
 
+            
+
             foreach(int number in numbers)
             {
-                 if (input.Contains(input))
+                 if (number == input)
                  {
-                Console.WriteLine("found the number");
+                Console.WriteLine("Array contains the input");
                  }
             }
 
